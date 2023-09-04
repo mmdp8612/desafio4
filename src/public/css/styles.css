@@ -1,0 +1,54 @@
+.container {
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.form-product {
+    padding:20px 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-input input,
+.form-input select {
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:10px 15px;
+    outline: none;
+}
+
+.btn {
+    border:0px;
+    padding:10px 15px;
+    border-radius:10px;
+    background-color:brown;
+    color:#fff;
+    cursor:pointer;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-left {
+    text-align:left;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table thead tr th,
+table tbody tr td {
+    border-collapse: collapse;
+    border:1px solid #000;
+    padding:5px 10px;
+}
+
+table thead tr th{
+    background-color:#444;
+    color:#fff;
+}
